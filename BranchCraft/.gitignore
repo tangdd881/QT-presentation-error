@@ -1,0 +1,43 @@
+# Qt Creator / qmake build output
+build/
+*.pro.user
+*.pro.user.*
+*.autosave
+.qtc_clangd/
+
+# Compiled objects and generated build files
+*.o
+*.obj
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.pch
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile
+Makefile.*
+object_script.*
+
+# Application binaries and deployed Qt runtime files
+*.exe
+*.dll
+*.so
+*.dylib
+*.app/
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
